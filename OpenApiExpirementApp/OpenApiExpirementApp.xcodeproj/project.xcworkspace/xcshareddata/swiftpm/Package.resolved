@@ -6,8 +6,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/BradPatras/openapi-swift-package-schema-only",
       "state" : {
-        "revision" : "b25c7e9048364e6ee982566fce86a0ce4a084220",
-        "version" : "0.0.7"
+        "revision" : "9e815ade98df68ad64c80f06814205d02732396d",
+        "version" : "0.0.8"
       }
     },
     {
