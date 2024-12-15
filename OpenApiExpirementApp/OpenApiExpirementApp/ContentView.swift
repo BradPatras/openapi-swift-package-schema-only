@@ -10,11 +10,7 @@ import SwiftUI
 
 struct ContentView: View {
 	@State var message: String?
-	let h: OpenAPISwiftPackageSchemaOnly
-	let client = Client(
-		serverURL: URL(string: "http://localhost:8080/api")!,
-		transport: URLSessionTransport()
-	)
+	let client: Client? = nil
 
     var body: some View {
         VStack {
