@@ -10,7 +10,7 @@ import SwiftUI
 
 struct ContentView: View {
 	@State var message: String?
-	let client: Client? = nil
+	let client: Client?
 
     var body: some View {
         VStack {
