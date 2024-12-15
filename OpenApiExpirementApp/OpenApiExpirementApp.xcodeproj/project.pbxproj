@@ -337,8 +337,8 @@
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/BradPatras/openapi-swift-package-schema-only";
 			requirement = {
-				kind = exactVersion;
-				version = 0.0.1;
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.0.2;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
