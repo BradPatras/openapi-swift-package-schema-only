@@ -10,7 +10,7 @@ import SwiftUI
 
 struct ContentView: View {
 	@State var message: String?
-	let client: Client? = nil
+	let client: Client = APIHelper.getClient(serverURL: URL(string: "")!)
 
     var body: some View {
         VStack {
