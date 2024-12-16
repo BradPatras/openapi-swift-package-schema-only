@@ -1,6 +1,13 @@
 # OpenAPI Swift Package Experiment 
 Experimenting with having the OpenAPI config/schema/generator plugin all be contained within a standalone Swift Package for consumption by an iOS app.
 
+##### Tl;dr
+You can host your OpenAPI Swift Client code in a barebones<sup>*</sup> swift package containing only the schema file and the Package.swift plugin. This gives two advantages:
+1. Your iOS app can simply have an spm dependency to the Client Library without needing to worry about the details of OpenAPI/generating client code.
+2. If your schema needs an update, the Client Library can be updated by just dropping in the new schema, committing the change and tagging a new release version to the library's repository.
+
+<sup>*</sup> - The library also needs a single swift function referencing the client code in order for the generator to run.
+
 ### Why?
 Using Apple's OpenAPI generator the way they recommend means the client API code doesn't get generated until build-time and the generated code is kept out of version control (contained in a temp build directory not readily accessible).  In their examples, the OpenAPI schema file is kept in the root directory of the app/target where the client code is being used.
 
