@@ -1,5 +1,5 @@
 # OpenAPI Swift Package Experiment 
-Experimenting with having the OpenAPI config/schema/generator plugin all be contained within a standalone Swift Package for consumption by an iOS app.
+Experimenting with having the OpenAPI config/schema/generator plugin all be contained within a standalone Swift Package for consumption by an iOS app. (using [Apple's OpenAPI Swift Generator](https://github.com/apple/swift-openapi-generator))
 
 ##### Tl;dr
 You can host your OpenAPI Swift Client code in a barebones<sup>*</sup> swift package containing only the schema file and the Package.swift plugin. This gives two advantages:
