@@ -338,7 +338,7 @@
 			repositoryURL = "https://github.com/BradPatras/openapi-swift-package-schema-only";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 0.0.2;
+				minimumVersion = 0.0.9;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
